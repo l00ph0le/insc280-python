@@ -3,8 +3,8 @@ import smtplib, string
 
 
 HOST = "localhost"
-SUBJECT = "Test Email from Nick"
-TO = "nmarcoccio@smccme.edu"
+SUBJECT = "Test Email"
+TO = "email@email.edu"
 FROM = "fakeemail@spoofed.com"
 TEXT = "This is my email message"
 BODY = string.join((
